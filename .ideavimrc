@@ -1,0 +1,31 @@
+let mapleader=" "
+
+" custom binds
+map <leader>w <Action>(Save)
+map <leader>r <Action>(RenameElement)
+map <leader>e <Action>(ExtractMethod)
+map c ~
+map H h
+
+:command W w
+:command Q q
+
+" regular vim settings
+set relativenumber
+set number
+set ignorecase
+
+" Show a few lines of context around the cursor.
+set scrolloff=5
+
+" Do incremental searching.
+set incsearch
+
+" Don't use Ex mode, use Q for formatting.
+map Q gq
+
+" Highlight copied text
+Plug 'machakann/vim-highlightedyank'
+" Commentary plugin
+Plug 'tpope/vim-commentary'
+
