@@ -1,11 +1,12 @@
 let mapleader=" "
 
 " custom binds
-map <leader>w <Action>(Save)
-map <leader>r <Action>(RenameElement)
-map <leader>e <Action>(ExtractMethod)
-map c ~
-map H h
+map <leader>r <Action>(Run)
+map <leader>re <Action>(RenameElement)
+map <leader>em <Action>(ExtractMethod)
+map <leader>iv <Action>(IntroduceVariable)
+" change case
+map <leader>cc ~
 
 :command W w
 :command Q q
@@ -28,4 +29,3 @@ map Q gq
 Plug 'machakann/vim-highlightedyank'
 " Commentary plugin
 Plug 'tpope/vim-commentary'
-
