@@ -3,6 +3,7 @@ let mapleader=" "
 
 " custom binds
 nmap <leader>rr <Action>(Run)
+nmap <leader>rs <Action>(Stop)
 nmap <leader>rd <Action>(Debug)
 
 nmap <leader>em <Action>(ExtractMethod)
